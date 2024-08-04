@@ -4,6 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import emailjs from "@emailjs/browser";
 import cartoon from "../assets/pic6.png";
+import env from "react-dotenv";
 
 export default function ContactForm({ id }) {
   const form = useRef();
@@ -13,8 +14,8 @@ export default function ContactForm({ id }) {
 
     emailjs
       .sendForm(
-        "service_pm7y1zp",
-        "template_qrutda7",
+        env.REACT_APP_SERVICE_ID,
+        env.REACT_APP_TEMPLATE_ID,
         e.target,
         "jfNP2XeOXjOi5MI3P"
       )
@@ -49,7 +50,8 @@ export default function ContactForm({ id }) {
   };
 
   return (
-    <div className="contact-window" id={id}>
+    <div className="contact-window" id={id} style={{ backdropFilter:"blur(3px)",
+      webkitBackdropFilter: "blur(5px)",}}>
       <h1>Let's Get in Touch.</h1>
       <p>Discuss a project or just want to say Hi? My inbox is open for all.</p>
       <div className="contact-container">

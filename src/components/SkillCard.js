@@ -9,7 +9,8 @@ import {IoLogoWindows, IoLogoNpm} from "react-icons/io"
 export default function SkillCard({id}) {
   return (
     <>
-        <div className="skill-container" id = {id}>
+        <div className="skill-container" id = {id} style={{ backdropFilter:"blur(3px)",
+      webkitBackdropFilter: "blur(5px)",}}>
           <div className="skill-header">My Skills</div>
           <div className="skill-box">
             <h2>Languages</h2>

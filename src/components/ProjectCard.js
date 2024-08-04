@@ -44,7 +44,8 @@ export default function ProjectCard(props) {
   }, []);
 
   return (
-    <div className="project-window" id={props.id}>
+    <div className="project-window" id={props.id} style={{ backdropFilter:"blur(3px)",
+      webkitBackdropFilter: "blur(5px)",}}>
       <div className={`project-wrapper ${props.className}`}>
         <div className="about-project">
           <div className="project-title">{props.projectTitle}</div>

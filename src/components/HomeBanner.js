@@ -1,4 +1,4 @@
-import Typist from 'react-typist';
+// import Typist from 'react-typist';
 
 import React, { useEffect } from 'react';
 import "./HomeBannerStyle.css";
@@ -16,7 +16,8 @@ export default function HomeBanner({id}) {
   // }, []);
   return (
 
-    <div className="home" id={id}> 
+    <div className="home" id={id} style={{ backdropFilter:"blur(3px)",
+      webkitBackdropFilter: "blur(5px)",}}> 
         <div className='content'>
             <div className="wrapper">
               <div className="name">Muhammad Abubakar</div>

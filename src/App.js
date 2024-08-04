@@ -3,7 +3,7 @@
 import "./App.css";
 // import "./style.scss";
 // import ReactTyped from "react-typed";
-import Typist from "react-typist";
+// import Typist from "react-typist";
 import ParticleConfig from "./particleConfig.js";
 import HomeBanner from "./components/HomeBanner.js";
 import Navbar from "./components/Navbar.js";
@@ -18,7 +18,7 @@ import WebApp from "./assets/ArtGallery.mp4";
 const App = () => {
   
   return (
-    <div >
+    <div>
       <ParticleConfig />
       <div >
     
