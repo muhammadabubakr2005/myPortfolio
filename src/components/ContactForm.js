@@ -83,7 +83,7 @@ export default function ContactForm({ id }) {
             placeholder="Share your thoughts and insights here; your feedback means a lot."
             required
           />
-          <button className="btn" id="submitBtn" type="submit" value="Send" style={{background:'#7722e7',borderColor:"#7722e7"}}>
+          <button className="btn" id="submitBtn" type="submit" value="Send" style={{color:'#fff',background:'#7722e7',borderColor:"#7722e7"}}>
             Send Message
           </button>
           <ToastContainer />

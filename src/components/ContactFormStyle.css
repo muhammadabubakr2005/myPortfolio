@@ -91,7 +91,7 @@
         margin-top: 0px;
         font-size: 16px;
         font-weight: 400;
-        color:#7722e7
+        color:#fff
     }
 }
 
@@ -121,5 +121,11 @@
 
     .contact-wrapper-right form {
         padding-left: 0;
+    }
+    .btn#submitBtn {
+        margin-top: 0px;
+        font-size: 16px;
+        font-weight: 400;
+        color:#fff
     }
 }
