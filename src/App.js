@@ -28,7 +28,7 @@ const App = () => {
           // id = "project"
           // className = "odd"
           projectTitle="Online Art Gallery"
-          projectDesc="A console based Game developed in Assemly Language 8088 archeitecture. The game is based on the concept of catching the alphabets falling."
+          projectDesc="A web application for art lovers to explore. The application is developed using ReactJS and NodeJS. The application is integrated with MS-SQL for database management. This App contains a lot of features such as chatbox, notifications, upload and explore arts etc."
           projectLink="https://github.com/DevanshSahni/Wiggles"
           // deployedProjectLink="https://wiggles.vercel.app"
            projectImg={WebApp}
