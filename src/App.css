@@ -10,6 +10,8 @@
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   scroll-behavior: smooth;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 body {
@@ -57,4 +59,9 @@ ul {
   .btn {
     font-size: 16px;
   }
+  .screen{
+    width: 100%;
+  }
 }
+
+

@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div>
       <ParticleConfig />
-      <div >
+      <div className="screen">
     
         <Navbar />
         <HomeBanner id="home" />
